@@ -30,7 +30,7 @@ end
 # vendored gems
 gem "activesupport"
 gem "concurrent-ruby"
-gem "mechanize"
+gem "mechanize", ">= 2.8.1"
 gem "patchelf"
 gem "plist"
 gem "rubocop-performance"
