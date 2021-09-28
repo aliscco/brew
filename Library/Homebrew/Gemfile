@@ -6,7 +6,7 @@ source "https://rubygems.org"
 gem "bootsnap", require: false
 gem "byebug", require: false
 gem "minitest", require: false
-gem "nokogiri", require: false
+gem "nokogiri", ">= 1.12.5", require: false
 gem "parallel_tests", require: false
 gem "ronn", require: false
 gem "rspec", require: false
@@ -30,7 +30,7 @@ end
 # vendored gems
 gem "activesupport"
 gem "concurrent-ruby"
-gem "mechanize"
+gem "mechanize", ">= 2.8.1"
 gem "patchelf"
 gem "plist"
 gem "rubocop-performance"
