@@ -14,7 +14,7 @@ gem "rspec-github", require: false
 gem "rspec-its", require: false
 gem "rspec-retry", require: false
 gem "rspec-wait", require: false
-gem "rubocop", require: false
+gem "rubocop", ">= 1.18.0", require: false
 gem "rubocop-ast", require: false
 gem "simplecov", require: false
 gem "simplecov-cobertura", require: false
